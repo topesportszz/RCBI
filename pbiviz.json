@@ -4,12 +4,12 @@
     "displayName": "Radar Chart",
     "guid": "RadarChart1234",
     "visualClassName": "RadarChart",
-    "version": "1.0.0",
+    "version": "1.0.0.0",
     "description": "A custom radar chart for Power BI",
     "supportUrl": "https://your-support-url.com",
     "gitHubUrl": "https://github.com/your-repository"
   },
-  "apiVersion": "2.6.0",
+  "apiVersion": "4.7.0",
   "author": {
     "name": "Your Name",
     "email": "your-email@example.com"
