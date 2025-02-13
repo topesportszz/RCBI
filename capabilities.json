@@ -1,0 +1,49 @@
+{
+  "dataRoles": [
+    {
+      "name": "Category",
+      "kind": "Grouping",
+      "displayName": "Category"
+    },
+    {
+      "name": "Values",
+      "kind": "Measure",
+      "displayName": "Values"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "for": {
+            "in": "Category"
+          },
+          "dataReductionAlgorithm": {
+            "top": {}
+          }
+        },
+        "values": {
+          "select": [
+            {
+              "bind": {
+                "to": "Values"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "general": {
+      "displayName": "General",
+      "properties": {
+        "show": {
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    }
+  }
+}
